@@ -82,3 +82,5 @@ a = 19
 b = 31
 result = a <= b
 print(result)
+
+#LOGICAL OPERATORS
