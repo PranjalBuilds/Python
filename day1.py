@@ -84,3 +84,32 @@ result = a <= b
 print(result)
 
 #LOGICAL OPERATORS
+
+#and
+p = True
+q = False
+result = p and q
+print(result)
+
+p = 5
+q = 10
+result = (p < 6) and (q > 8)
+print(result)
+
+#or
+p = True
+q = False
+result = p or q
+print(result)
+
+p = 5
+q = 10
+result = (p < 3) or (q > 8)
+print(result)
+
+#not
+
+p = False
+q = True
+result = not p or not q  #true or false --> true
+print(result)
