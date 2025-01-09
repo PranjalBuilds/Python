@@ -262,3 +262,8 @@ print(name[2]) #N ...
 
 
 #Loops
+
+#For Loop
+
+for i in name: 
+    print(i)
