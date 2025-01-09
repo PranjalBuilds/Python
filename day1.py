@@ -234,3 +234,17 @@ a = 5.2
 b = 2
 result = a + b
 print(result) #7.2
+
+
+
+#Taking input from user
+
+name = input("Enter your name: ")
+
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
+
+result = num1 + num2
+
+print("Sum is: ",result)
+print("Hello! ",name)
