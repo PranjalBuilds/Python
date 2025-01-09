@@ -211,3 +211,26 @@ Logical OR          or
 '''
 print(5 + 4 - 7 + 3)
 #output: 5
+
+
+#Typecasting
+#Explicit Typecasting   (by user)
+#Implicit Typecasting   (by python)
+
+
+#Explicit Typecasting
+a = "5"
+b = "2"
+result = a + b
+print(result) #52
+
+#solution via typecasting
+result = int(a) + int(b) #7
+
+
+#Implicit Typecasting
+
+a = 5.2
+b = 2
+result = a + b
+print(result) #7.2
