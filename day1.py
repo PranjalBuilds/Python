@@ -248,3 +248,13 @@ result = num1 + num2
 
 print("Sum is: ",result)
 print("Hello! ",name)
+
+
+
+#indexing
+# 0 1 2 ...
+
+name = "Pranjal"    
+print(name[0]) #P
+print(name[1]) #R
+print(name[2]) #N ... 
