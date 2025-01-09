@@ -153,3 +153,35 @@ print(a)
 a = 2
 a **= 3
 print(a)
+
+
+# MEMBERSHIP
+
+#in
+
+a = [1, 2, 3, 4, 5]
+val = 3
+#checks does values exists in the list
+result = val in a
+print(a)
+
+#not in
+a = "Hello, Pranjal!"
+val = "Jainil"
+result = val not in a
+print(result)
+
+# IDENTITY
+
+#is
+a = [1, 2, 3, 4, 5]
+b = a
+result = a is b
+print(result)
+
+#is not
+
+a = [1, 2, 3, 4, 5]
+b = [1, 2, 3, 4, 5]
+result = a is not b
+print(result)
