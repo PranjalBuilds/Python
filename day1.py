@@ -267,3 +267,10 @@ print(name[2]) #N ...
 
 for i in name: 
     print(i)
+
+#While Loop
+
+i = 1
+while i < 6:
+  print(i)
+  i += 1
