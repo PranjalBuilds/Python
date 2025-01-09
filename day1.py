@@ -258,3 +258,7 @@ name = "Pranjal"
 print(name[0]) #P
 print(name[1]) #R
 print(name[2]) #N ... 
+
+
+
+#Loops
