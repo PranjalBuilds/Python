@@ -42,3 +42,43 @@ print(result)
 
 #Comparison Operators
 # < > <= >= == !=
+
+#equal to
+a = 5
+b = 5
+result = a == b
+print(result)
+
+#not equal to
+
+a = 5
+b = 5
+result = a != b
+print(result)
+
+#greater than
+a = 5
+b = 10
+result = b > a
+print(result)
+
+#less than
+
+a = 4
+b = 1
+result = a < b
+print(result)
+
+#greater than or equal to
+
+a = 43
+b = 43
+result = a >= b
+print(result)
+
+#less than or equal to
+
+a = 19
+b = 31
+result = a <= b
+print(result)
