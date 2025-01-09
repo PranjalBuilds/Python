@@ -113,3 +113,43 @@ p = False
 q = True
 result = not p or not q  #true or false --> true
 print(result)
+
+
+#ASSIGNMENT =
+a = 5
+
+#addition
+a = 5
+a += 2
+print(a)
+
+#subtraction
+a = 5
+a -= 2
+print(a)
+
+#multiplication
+a = 10
+a *= 3
+print(a)
+
+#division
+a = 10
+a /= 2
+print(a)
+
+#floor division
+a = 15
+a //= 4
+print(a)
+
+#modulus
+
+a = 17
+a %= 5
+print(a)
+
+#exponentiation
+a = 2
+a **= 3
+print(a)
