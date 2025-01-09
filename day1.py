@@ -185,3 +185,29 @@ a = [1, 2, 3, 4, 5]
 b = [1, 2, 3, 4, 5]
 result = a is not b
 print(result)
+
+
+
+#Precedence (High to low)
+
+
+'''
+
+#those who have same precedence are evaluated from left to right
+
+Parentheses ()
+Exponentiation ** 
+Unary plus, unary minus, and bitwise NOT +x, -x, ~x
+Multiplication, division, floor division, and modulus * / // %
+Addition and subtraction + -
+Bitwise left and right shifts << >>
+Bitwise AND &
+Bitwise XOR ^
+Bitwise OR |
+Comparisons, identity, and membership operators ==  !=  >  >=  <  <=  is  is not  in  not in
+Logical NOT         not
+Logical AND         and
+Logical OR          or
+'''
+print(5 + 4 - 7 + 3)
+#output: 5
