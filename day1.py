@@ -39,3 +39,6 @@ print(result)
 #exponentiation
 result = 5**5
 print(result)
+
+#Comparison Operators
+# < > <= >= == !=
