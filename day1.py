@@ -274,3 +274,14 @@ i = 1
 while i < 6:
   print(i)
   i += 1
+
+#String Slicing 
+
+name = "Mango"
+mangoLen = len(name)
+print(mangoLen)
+
+print(name[0:3])
+print(name[-1])  
+print(name[-3:- 1])
+
