@@ -285,3 +285,26 @@ print(name[0:3])
 print(name[-1])  
 print(name[-3:- 1])
 
+
+#String Methods
+
+a = "Pranjal"
+print(len(a))
+print(a.upper())
+print(a.lower())
+print(a.capitalize())
+
+b = "Pranjal%%#$"
+print(b.rstrip("%$#"))
+
+print(a.replace("P","J"))
+
+sent = "I am learning Python"
+print(sent.split("a")) 
+
+print(len(sent))
+print(sent.center(40))
+print(len(sent.center(40)))
+
+print(a.count("a"))
+print(a.endswith("l"))
