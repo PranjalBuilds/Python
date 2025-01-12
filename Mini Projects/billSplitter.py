@@ -11,4 +11,4 @@ def add():
     
     amountPerPerson = f"{(totalAmt / totalPerson):.2f}"
     print('Amount per person is', amountPerPerson)
-add()
+add() 
