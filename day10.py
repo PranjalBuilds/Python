@@ -42,6 +42,5 @@ for key in thisdict.keys():
 # key-value pairs:
 print(thisdict.items())
 
-
 for key, value in thisdict.items():
     print(f"Keys: {key}\nvalues: {value}\n")
