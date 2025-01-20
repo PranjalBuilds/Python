@@ -18,7 +18,7 @@ try:
     # eval('x === 10')
 
     # NameError
-    print(undefined_variable)
+    #print(undefined_variable)
 
     # ZeroDivisionError
     result = 10 / 0
@@ -48,3 +48,22 @@ except TypeError:
 except Exception as e:
     print(f"Other Error: {e}")
 
+
+
+#finally - this clause will always execute without taking care of try and except block.
+
+try:
+    a = 1
+    if a > 2:
+        print(" > 2 ")
+    else: 
+        print(" < 2 ")
+
+except Exception as e:
+    print(e)
+
+finally: 
+    print("This will Always be executed!")
+
+
+# the difference between normal print statement in outer block and finally clause is, print won't execute when function is called but, finally will, regardless of any interuptions or terminations
