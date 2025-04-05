@@ -21,7 +21,6 @@ e1.show()
 
 print(f"Actual Company: {Emp.company}") 
 
-'''
 
 # extracting correct data
 
@@ -35,6 +34,25 @@ class Emp:
 # print(e.sal)
 
 str = "Naman-12000"
-e = Emp(str.split("-")[0], str.split("-")[1])
+e = Emp(str.split("-")[0], int(str.split("-")[1]))
 print(e.name)
 print(e.sal)
+
+'''
+
+# Class Methods as an Alternative Constructors
+ 
+class Emp:
+    def __init__(self, name, salary):
+        self.name = name
+        self.sal = salary
+    
+    @classmethod
+    def fromStr(cls, str):
+        return cls(str.split("-")[0], int(str.split("-")[1]))
+
+str = "Naman-12000"
+e = Emp.fromStr(str)
+print(e.name)
+print(e.sal)
+
