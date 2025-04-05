@@ -1,4 +1,5 @@
 # Class Methods:
+'''
 
 class Emp:
     company = "abc"
@@ -19,3 +20,21 @@ e1.changeCompany("xyz")
 e1.show()
 
 print(f"Actual Company: {Emp.company}") 
+
+'''
+
+# extracting correct data
+
+class Emp:
+    def __init__(self, name, salary):
+        self.name = name
+        self.sal = salary
+
+# e = Emp("Pranjal", 12000)
+# print(e.name)
+# print(e.sal)
+
+str = "Naman-12000"
+e = Emp(str.split("-")[0], str.split("-")[1])
+print(e.name)
+print(e.sal)
